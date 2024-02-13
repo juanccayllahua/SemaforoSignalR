@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{65037DAC-235F-4585-B9FD-96BF30F10ADC}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiappSignalR/Hubs/PositionHub.cs">
+    <Files>
+      <File FileName="MiappSignalR/Pages/Index.cshtml" Line="17" Column="24" />
+      <File FileName="MiappSignalR/wwwroot/js/site.js" Line="67" Column="1" />
+      <File FileName="MiappSignalR/Hubs/PositionHub.cs" Line="33" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MiappSignalR" expanded="True">
+            <Node name="MiappSignalR" expanded="True">
+              <Node name="Hubs" expanded="True">
+                <Node name="PositionHub.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MiappSignalR PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiappSignalR", "MiappSignalR\MiappSignalR.csproj", "{65037DAC-235F-4585-B9FD-96BF30F10ADC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65037DAC-235F-4585-B9FD-96BF30F10ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65037DAC-235F-4585-B9FD-96BF30F10ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65037DAC-235F-4585-B9FD-96BF30F10ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65037DAC-235F-4585-B9FD-96BF30F10ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDC4032D-5E8B-4D60-AB31-F4C6769073AE}
+	EndGlobalSection
+EndGlobal
