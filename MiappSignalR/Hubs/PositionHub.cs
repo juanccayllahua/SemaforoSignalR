@@ -20,7 +20,7 @@ namespace MiappSignalR.Hubs
             {
                 Console.WriteLine("hola mundo ..." + texto1);
 
-
+                //conectar a BD mongoDB
                 var database = client.GetDatabase("bdequipos");
                 var collection = database.GetCollection<BsonDocument>("semaforos");
 
@@ -32,8 +32,25 @@ namespace MiappSignalR.Hubs
                     Console.WriteLine(semaforo.ToJson());
                 }
 
+                // Insertar un nuevo documento
+                var nuevoSemaforo = new BsonDocument
+        {
+            { "nombre", "NuevoSemaforo" },
+            { "color", "Verde" },
+            { "estado", "Encendido" }
+            // Puedes agregar más campos según sea necesario
+        };
 
-                Console.WriteLine("Successfully connected to Atlas "+ texto1);
+                await collection.InsertOneAsync(nuevoSemaforo);
+                Console.WriteLine("Nuevo semáforo insertado correctamente.");
+
+                Console.WriteLine("Successfully connected to Atlas " + texto1);
+
+
+
+
+                //conectar a BD mongoDB
+
             }
             catch (Exception e) { Console.WriteLine(e); }
 
